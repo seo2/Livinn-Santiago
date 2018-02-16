@@ -19,25 +19,38 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+	<link href="assets/img/logofavicon.ico" rel="shortcut icon" type="image/x-icon"/>
+
   </head>
   <body>
+	<a href="javascript:void(0);" id="btn-reserva" class="ease">Reserva Ahora</a>
   	<header>
 	  	<div class="container">
-		  	<div class="row">
-	  			<div class="col-sm-12">
-		  			
+		  	<div class="row" id="submenu">
+	  			<div class="col-xs-4">
+		  			<a href="javascript:void(0)" class="lang esp">ESP</a>
+		  			<a href="javascript:void(0)" class="lang eng">ENG</a>
+	  			</div>
+	  			<div class="col-xs-8 text-right">
+		  			<ul>
+			  			<li class="location"><span>Select a Location/<br>Elige una ubicación</span></li>
+			  			<li class="bandera"><a href="javascript:void(0);"><img src="assets/img/ico-cl.png"><br><span>CL</span></a></li>
+			  			<li class="bandera"><a href="javascript:void(0);"><img src="assets/img/ico-co.png"><br><span>CO</span></a></li>
+			  			<li class="bandera"><a href="javascript:void(0);"><img src="assets/img/ico-us.png"><br><span>US</span></a></li>
+			  			<li class="bandera"><a href="javascript:void(0);"><img src="assets/img/ico-po.png"><br><span>PL</span></a></li>
+		  			</ul>
 	  			</div>
 		  	</div>
 	  		<div class="row">
 	  			<div class="col-sm-12">
 			        <nav>
 			          <ul class="nav nav-pills pull-right text-center">
-			            <li class="active"><a href="#" class="lh40">Home</a></li>
+			            <li class="active"><a href="#" class="lh40">Lord Cochrane</a></li>
 			            <li><a href="#">Tipos de<br>Alojamientos</a></li>
 			            <li><a href="#">Padres y futuros<br>residentes</a></li>
 			            <li><a href="#" class="lh40">Comunidad</a></li>
-			            <li><a href="#">Preguntas<br>Frecuentes</a></li>
-			            <li><a href="#" class="lh40">Blog</a></li>
 			          </ul>
 			        </nav>
 			       	<img src="assets/img/logo-header.png" class="logo">  				
@@ -46,66 +59,323 @@
 	  	</div>
   	</header>
   	<section id="slider">
-  		<div class="row">
-  			<div class="col-sm-12">
-  				<div class="owl-carousel owl-theme">
-  					<div class="slide">
-	  					<div class="info">
-	  						
-	  					</div>
-  						<img src="assets/img/SLIDER-SUPERIOR-1_CAPA.jpg" class="img-responsive">
-  					</div>
-  					<div class="slide">
-	  					<div class="info">
-	  						
-	  					</div>
-  						<img src="assets/img/SLIDER-SUPERIOR-2_CAPA.jpg" class="img-responsive">
-  					</div>
-  					<div class="slide">
-	  					<div class="info">
-	  						
-	  					</div>
-  						<img src="assets/img/SLIDER-SUPERIOR-3_CAPA.jpg" class="img-responsive">
-  					</div>
-  					<div class="slide">
-	  					<div class="info">
-	  						
-	  					</div>
-  						<img src="assets/img/SLIDER-SUPERIOR-4_CAPA.jpg" class="img-responsive">
-  					</div>
-  					<div class="slide">
-	  					<div class="info">
-	  						
-	  					</div>
-  						<img src="assets/img/SLIDER-SUPERIOR-5_CAPA.jpg" class="img-responsive">
-  					</div>
-  					<div class="slide">
-	  					<div class="info">
-	  						
-	  					</div>
-  						<img src="assets/img/SLIDER-SUPERIOR-6_CAPA.jpg" class="img-responsive">
-  					</div>
-  					<div class="slide">
-	  					<div class="info">
-	  						
-	  					</div>
-  						<img src="assets/img/SLIDER-SUPERIOR-1_CAPA.jpg" class="img-responsive">
-  					</div>
+	  	
+		<div id="info-slider">
+			<img src="assets/img/LIVINN-ES_small.png">
+			<h1>Compartir</h1>
+		</div>
+
+		<div class='redes'>
+			<ul>
+				<li><a target="_blank" href="https://www.facebook.com/LivinnSantiagoChile/"><img src="assets/img/ico-fb.png" class="img-responsive"></a></li>
+				<li><a target="_blank" href="https://twitter.com/livinnchile"><img src="assets/img/ico-tw.png" class="img-responsive"></a></li>
+				<li><a target="_blank" href="https://www.instagram.com/livinnsantiago/"><img src="assets/img/ico-in.png" class="img-responsive"></a></li>
+			</ul>
+		</div> 	  			
+			
+			<div class="owl-carousel owl-theme cienporcien" id="carousel1">
+				<div class="slide cienporcien">
+					<img src="assets/img/SLIDER-SUPERIOR-1_CAPA.jpg" class="img-responsive">
+				</div>
+				<div class="slide">
+					<img src="assets/img/SLIDER-SUPERIOR-2_CAPA.jpg" class="img-responsive">
+				</div>
+				<div class="slide">
+					<img src="assets/img/SLIDER-SUPERIOR-3_CAPA.jpg" class="img-responsive">
+				</div>
+				<div class="slide">
+					<img src="assets/img/SLIDER-SUPERIOR-4_CAPA.jpg" class="img-responsive">
+				</div>
+				<div class="slide">
+					<img src="assets/img/SLIDER-SUPERIOR-5_CAPA.jpg" class="img-responsive">
+				</div>
+				<div class="slide">
+					<img src="assets/img/SLIDER-SUPERIOR-6_CAPA.jpg" class="img-responsive">
+				</div>
+			</div>
+  	</section>
+  	<section id="acerca" class="text-center">
+	  	<div class="container">
+	  		<div class="row">
+	  			<div class="col-sm-10 col-sm-offset-1">
+			<!--
+			  		<img src="assets/img/acerca-de.png">
+			  		<h2>Una comunidad de edificios diseñados para estudiantes y jóvenes<br> 
+				  		de todo el mundo. Cuenta con alojamientos flexibles y amoblados.</h2>
+			-->
+				  	<p>SOMOS EL HOGAR DE MUCHOS ESTUDIANTES Y EMPRENDEDORES DEL MUNDO. ESTAMOS CONECTADOS A TODO: UNIVERSIDADES, TRANSPORTE Y COMERCIO. AQUÍ NO NOS FALTA LA COMODIDAD NI LAS AVENTURAS NI LOS DESAFÍOS NI MUCHO MENOS LAS EXPERIENCIAS, NOS FALTAS TÚ. VEN Y PRUÉBALO.</p>
+	  			</div>
+	  		</div>
+	  	</div>
+  	</section>
+  	<section id="beneficios">
+
+		<div id="beneficios-box">
+			<h3>Beneficios Incluidos</h3>
+			<div id="beneficios-ico">
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-wifi.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-television.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-cocina.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-mobiliario.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-gastos.png" class="img-responsive">
+					</div>
+				</a>
+				<div class="clearfix"></div>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-yoga.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-salajuegos.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-salaestudios.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-gimnasio.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-terraza.png" class="img-responsive">
+					</div>
+				</a>
+				<div class="clearfix"></div>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-bbq.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-piscina.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-tech.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-app.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-descuentos.png" class="img-responsive">
+					</div>
+				</a>
+				<div class="clearfix"></div>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-staff.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-seguridad.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-programacion.png" class="img-responsive">
+					</div>
+				</a>
+				<div class="clearfix"></div>
+			</div>
+			<h3>Servicios Disponibles</h3>
+			<div id="servicios-ico">
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-lavanderia.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-excursiones.png" class="img-responsive">
+					</div>
+				</a>
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+					<div class="icobox">
+						<img src="assets/img/iconos/ico-impresiones.png" class="img-responsive">
+					</div>
+				</a>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		
+		<div class="owl-carousel owl-theme cienporcien" id="carousel2">
+			<div class="slide cienporcien">
+				<div class="info text-center">
+					<h2>Gimnasio</h2>
+					<h3>Full equipado, clases de yoga, Hiit, Zumba y más</h3>
+					<a href="javascript:void(0);" class="ease vermas">
+						VER MÁS
+					</a>
+				</div>
+				<img src="assets/img/SERVICIOS1_CAPA.jpg" class="img-responsive">
+			</div>
+			<div class="slide cienporcien">
+				<div class="info text-center">
+					<h2>BBQ</h2>
+					<h3>ÚSALO CUANDO QUIERAS, SOLO PREGUNTA POR SU DISPONIBILIDAD.</h3>
+					<a href="javascript:void(0);" class="ease vermas">
+						VER MÁS
+					</a>
+				</div>
+				<img src="assets/img/SERVICIOS2_CAPA.jpg" class="img-responsive">
+			</div>
+			<div class="slide cienporcien">
+				<div class="info text-center">
+					<h2>PISCINA</h2>
+					<h3>LIBRE PARA TI LOS 7 DÍAS DE LA SEMANA!</h3>
+					<a href="javascript:void(0);" class="ease vermas">
+						VER MÁS
+					</a>
+				</div>
+				<img src="assets/img/SERVICIOS3_CAPA.jpg" class="img-responsive">
+			</div>
+			<div class="slide cienporcien">
+				<div class="info text-center">
+					<h2>SALA DE JUEGOS Y TV</h2>
+					<h3>CONSOLAS,  VIDEOJUEGOS, TELEVISORES, TACA TACA O FUTBOLITO, MESA DE PING PONG Y MESA DE POOL.</h3>
+					<a href="javascript:void(0);" class="ease vermas">
+						VER MÁS
+					</a>
+				</div>
+				<img src="assets/img/SERVICIOS4_CAPA.jpg" class="img-responsive">
+			</div>
+			<div class="slide cienporcien">
+				<div class="info text-center">
+					<h2>SALA DE ESTUDIOS</h2>
+					<h3>A TODO DAR, LA COMODIDAD DE ESTA SALA ES IMPRESIONANTE, PUEDES USARLA CUANDO QUIERAS Y ASÍ NO PASAR ENCERRADO EN TU HABITACIÓN ESTUDIANDO.</h3>
+					<a href="javascript:void(0);" class="ease vermas">
+						VER MÁS
+					</a>
+				</div>
+				<img src="assets/img/SERVICIOS5_CAPA.jpg" class="img-responsive">
+			</div>
+		</div>
+  	</section>
+  	<section id="comunidad">
+  		<div class="container">
+  			<div class="row text-center">
+  				<div class="col-md-4 comunidadbox" id="blogbox">
+  					<h1>Blog</h1>
+					<a href="javascript:void(0);" class="ease vermas">
+						VER MÁS
+					</a>
+					<div class="row">
+						<div class="col-sm-10 col-sm-offset-1">
+							<img src="assets/img/BLOG.jpg" class="img-responsive">
+							<h2>10 eventos en Santiago imperdibles este verano</h2>
+						</div>
+					</div>
+  				</div>
+  				<div class="col-md-4 comunidadbox" id="eventosbox">
+  					<h1>Eventos</h1>
+					<a href="javascript:void(0);" class="ease vermas">
+						VER MÁS
+					</a>
+					<div class="row">
+						<div class="col-sm-10 col-sm-offset-1">
+							<img src="assets/img/Eventos.jpg" class="img-responsive">
+							<h2>Bienvenida 2018: Nuevos Residentes!!</h2>
+						</div>
+					</div>
+  				</div>
+  				<div class="col-md-4 comunidadbox">
+  					<h1>#LivinnSantiago</h1>
+					<a href="javascript:void(0);" class="ease vermas">
+						VER MÁS
+					</a>
   				</div>
   			</div>
   		</div>
   	</section>
-  	<section id="acerca">
-  	
-  	</section>
-  	<section id="beneficios">
-  	
-  	</section>
-  	<section id="comunidad">
-  	
-  	</section>
   	<section id="lugares">
-  	
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-sm-10 col-sm-offset-1">
+  					<div class="row">
+  						<div class="col-sm-4 lugarbox">
+  							<h1>Lugares de interés</h1>
+  							<p>Selecciona tu lugar para visitar</p>
+  							<div class="form-group">
+	  							<select name="tipolugar" id="tipolugar"  class="form-control">
+		  							<option value="1">Turismo</option>
+		  							<option value="2">Turismo</option>
+		  							<option value="3">Turismo</option>
+		  							<option value="4">Turismo</option>
+	  							</select>
+							</div>
+  							<ol id="lugares1">
+	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_1">Torres del paine</a></li>
+	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_2">Isla de Pascua</a></li>
+	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_3">San Pedro de Atacama</a></li>
+	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_4">Valdivia</a></li>
+	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_5">Pichilemu</a></li>
+	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_6">Cordillera</a></li>
+  							</ol>
+  						</div>
+  						<div class="col-sm-4 lugarbox" id="lugarboxfoto">
+  							
+  						</div>
+  						<div class="col-sm-4 lugarbox" id="lugarboxinfo">
+	  						<div id="txt-LUGARES_DE_INTERES_1" class="lugarboxinfo hide">
+	  							<h2>Torres del paine</h2>
+	  							<p>El Parque Nacional Torres del Paine está ubicado en la Patagonia de Chile, es conocido por sus altas montañas. Sin embargo, son las 3 torres de granito que dan su nombre al parque. Los glaciares y las praderas albergan una fauna poco común y conforman un paisaje muy hermoso. Sin duda, un lugar imperdible en Chile.</p>
+	  						</div>
+	  						<div id="txt-LUGARES_DE_INTERES_2" class="lugarboxinfo hide">
+	  							<h2>Isla de Pascua</h2>
+	  							<p>Isla de Pascua es una remota isla volcánica en la Polinesia perteneciente a Chile. Su nombre nativo es Rapa Nui. Es famosa por sus sitios arqueológicos, incluidas cerca de 900 estatuas monumentales llamadas "Moáis", creadas por los habitantes entre los siglos XIII y XVI. Los moáis son figuras humanas talladas con cabezas demasiado grandes, a menudo, apoyados sobre enormes pedestales de piedra llamados ahus.</p>
+	  						</div>
+	  						<div id="txt-LUGARES_DE_INTERES_3" class="lugarboxinfo hide">
+	  							<h2>San Pedro de Atacama</h2>
+	  							<p>San Pedro de Atacama es una ciudad ubicada en una alta meseta árida en la Cordillera de los Andes del noreste chileno. Su espectacular paisaje circundante incluye desierto, salares, volcanes, géiseres y aguas termales. El Valle de la Luna en la Reserva Nacional los Flamencos es una depresión similar a la superficie lunar con formaciones rocosas poco comunes, una enorme duna de arena y montañas con manchas de color rosa.</p>
+	  						</div>
+	  						<div id="txt-LUGARES_DE_INTERES_4" class="lugarboxinfo hide">
+	  							<h2>Valdivia</h2>
+	  							<p>Valdivia, también conocida como la capital cervecera de Chile, está ubicada en la Región de los Ríos. Fue una de las primeras ciudades fundadas en Chile. Durante el Chile Colonial, se la consideraba “la llave del mar del sur”, porque era un enclave estratégico para el acceso al Océano Pacífico. Por este motivo se construyó un conjunto de fortificaciones que la protegían de ataques por parte de los enemigos. </p>
+	  						</div>
+	  						<div id="txt-LUGARES_DE_INTERES_5" class="lugarboxinfo hide">
+	  							<h2>Pichilemu</h2>
+	  							<p>La playa de Pichilemu es una zona de práctica de surf, específicamente el sector de Punta de Lobos, donde por sus break points se han desarrollado campeonatos con participación y relevancia internacional que han provocado que Pichilemu sea nombrada la Capital Mundial del Surf.</p>
+	  						</div>
+	  						<div id="txt-LUGARES_DE_INTERES_6" class="lugarboxinfo hide">
+	  							<h2>Cordillera</h2>
+	  							<p>El esquí en Chile es un deporte relativamente popular en las zonas central, sur y austral de los Andes chilenos, aptos para la práctica de este deporte. A lo largo de la cordillera, entre las regiones de Valparaíso y Magallanes y Antártica Chilena, Chile cuenta con dieciocho estaciones de esquí de calidad internacional, donde, de junio a septiembre, es posible practicar deportes de invierno, principalmente esquí y snowboarding.</p>
+	  						</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
   	</section>
   	<footer class="text-center">
 	  	<p>© Copyright <a href="javascript:void(0);">Livinn Santiago</a> | <a href="javascript:void(0);">Términos y condiciones</a> </p>
