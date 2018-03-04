@@ -1,68 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Livinn Santiago</title>
+<?php include('header.php'); ?>
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="assets/css/livinn.css">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-
-	<link href="assets/img/logofavicon.ico" rel="shortcut icon" type="image/x-icon"/>
-
-  </head>
-  <body>
-	<a href="javascript:void(0);" id="btn-reserva" class="ease">Reserva Ahora</a>
-  	<header>
-	  	<div class="container">
-		  	<div class="row" id="submenu">
-	  			<div class="col-xs-4">
-		  			<a href="javascript:void(0)" class="lang esp">ESP</a>
-		  			<a href="javascript:void(0)" class="lang eng">ENG</a>
-	  			</div>
-	  			<div class="col-xs-8 text-right">
-		  			<ul>
-			  			<li class="location"><span>Select a Location/<br>Elige una ubicación</span></li>
-			  			<li class="bandera"><a href="javascript:void(0);"><img src="assets/img/ico-cl.png"><br><span>CL</span></a></li>
-			  			<li class="bandera"><a href="javascript:void(0);"><img src="assets/img/ico-co.png"><br><span>CO</span></a></li>
-			  			<li class="bandera"><a href="javascript:void(0);"><img src="assets/img/ico-us.png"><br><span>US</span></a></li>
-			  			<li class="bandera"><a href="javascript:void(0);"><img src="assets/img/ico-po.png"><br><span>PL</span></a></li>
-		  			</ul>
-	  			</div>
-		  	</div>
-	  		<div class="row">
-	  			<div class="col-sm-12">
-			        <nav>
-			          <ul class="nav nav-pills pull-right text-center">
-			            <li class="active"><a href="#" class="lh40">Lord Cochrane</a></li>
-			            <li><a href="#">Tipos de<br>Alojamientos</a></li>
-			            <li><a href="#">Padres y futuros<br>residentes</a></li>
-			            <li><a href="#" class="lh40">Comunidad</a></li>
-			          </ul>
-			        </nav>
-			       	<img src="assets/img/logo-header.png" class="logo">  				
-	  			</div>
-	  		</div>
-	  	</div>
-  	</header>
   	<section id="slider">
 	  	
 		<div id="info-slider">
-			<img src="assets/img/LIVINN-ES_small.png">
-			<h1>Compartir</h1>
+			<img src="assets/img/livinn-es-una-aventura.png">
+			<h1 class="cyan">Ven y descubre</h1>
 		</div>
 
 		<div class='redes'>
@@ -72,38 +14,34 @@
 				<li><a target="_blank" href="https://www.instagram.com/livinnsantiago/"><img src="assets/img/ico-in.png" class="img-responsive"></a></li>
 			</ul>
 		</div> 	  			
-			
-			<div class="owl-carousel owl-theme cienporcien" id="carousel1">
-				<div class="slide cienporcien">
-					<img src="assets/img/SLIDER-SUPERIOR-1_CAPA.jpg" class="img-responsive">
-				</div>
-				<div class="slide">
-					<img src="assets/img/SLIDER-SUPERIOR-2_CAPA.jpg" class="img-responsive">
-				</div>
-				<div class="slide">
-					<img src="assets/img/SLIDER-SUPERIOR-3_CAPA.jpg" class="img-responsive">
-				</div>
-				<div class="slide">
-					<img src="assets/img/SLIDER-SUPERIOR-4_CAPA.jpg" class="img-responsive">
-				</div>
-				<div class="slide">
-					<img src="assets/img/SLIDER-SUPERIOR-5_CAPA.jpg" class="img-responsive">
-				</div>
-				<div class="slide">
-					<img src="assets/img/SLIDER-SUPERIOR-6_CAPA.jpg" class="img-responsive">
-				</div>
+		<div class="owl-carousel owl-theme cienporcien" id="carousel1">
+			<div class="slide cienporcien">
+				<img src="assets/img/slider-home/1.png" class="img-responsive">
 			</div>
+			<div class="slide">
+				<img src="assets/img/slider-home/2.png" class="img-responsive">
+			</div>
+			<div class="slide">
+				<img src="assets/img/slider-home/3.png" class="img-responsive">
+			</div>
+			<div class="slide">
+				<img src="assets/img/slider-home/4.png" class="img-responsive">
+			</div>
+			<div class="slide">
+				<img src="assets/img/slider-home/5.png" class="img-responsive">
+			</div>
+			<div class="slide">
+				<img src="assets/img/slider-home/6.png" class="img-responsive">
+			</div>
+		</div>
   	</section>
   	<section id="acerca" class="text-center">
 	  	<div class="container">
 	  		<div class="row">
 	  			<div class="col-sm-10 col-sm-offset-1">
-			<!--
-			  		<img src="assets/img/acerca-de.png">
-			  		<h2>Una comunidad de edificios diseñados para estudiantes y jóvenes<br> 
-				  		de todo el mundo. Cuenta con alojamientos flexibles y amoblados.</h2>
-			-->
-				  	<p>SOMOS EL HOGAR DE MUCHOS ESTUDIANTES Y EMPRENDEDORES DEL MUNDO. ESTAMOS CONECTADOS A TODO: UNIVERSIDADES, TRANSPORTE Y COMERCIO. AQUÍ NO NOS FALTA LA COMODIDAD NI LAS AVENTURAS NI LOS DESAFÍOS NI MUCHO MENOS LAS EXPERIENCIAS, NOS FALTAS TÚ. VEN Y PRUÉBALO.</p>
+				  	<p>Livinn Santiago es el primero edificio de la empresa CA Ventures fuera de EEUU.</p>
+				  	<p>Con 144 apartamentos y mas de 350 estudiantes, este nuevo concepto de alojamiento en Santiago se ha convertido en un punto de encuentro para estudiantes de todo el mundo. Descúbrenos <a href="https://www.instagram.com/explore/tags/livinnsantiago/" target="_blank">#livinnsantiago</a> <a href="https://www.instagram.com/explore/tags/familialivinn/" target="_blank">#familialivinn</a>
+</p>
 	  			</div>
 	  		</div>
 	  	</div>
@@ -222,7 +160,7 @@
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
-						<img src="assets/img/iconos/ico-impresiones.png" class="img-responsive">
+						<img src="assets/img/iconos/ico-estacionamiento.png" class="img-responsive">
 					</div>
 				</a>
 				<div class="clearfix"></div>
@@ -233,7 +171,7 @@
 			<div class="slide cienporcien">
 				<div class="info text-center">
 					<h2>Gimnasio</h2>
-					<h3>Full equipado, clases de yoga, Hiit, Zumba y más</h3>
+<!-- 					<h3>Full equipado, clases de yoga, Hiit, Zumba y más</h3> -->
 					<a href="javascript:void(0);" class="ease vermas">
 						VER MÁS
 					</a>
@@ -243,7 +181,7 @@
 			<div class="slide cienporcien">
 				<div class="info text-center">
 					<h2>BBQ</h2>
-					<h3>ÚSALO CUANDO QUIERAS, SOLO PREGUNTA POR SU DISPONIBILIDAD.</h3>
+<!-- 					<h3>ÚSALO CUANDO QUIERAS, SOLO PREGUNTA POR SU DISPONIBILIDAD.</h3> -->
 					<a href="javascript:void(0);" class="ease vermas">
 						VER MÁS
 					</a>
@@ -253,7 +191,7 @@
 			<div class="slide cienporcien">
 				<div class="info text-center">
 					<h2>PISCINA</h2>
-					<h3>LIBRE PARA TI LOS 7 DÍAS DE LA SEMANA!</h3>
+<!-- 					<h3>LIBRE PARA TI LOS 7 DÍAS DE LA SEMANA!</h3> -->
 					<a href="javascript:void(0);" class="ease vermas">
 						VER MÁS
 					</a>
@@ -263,7 +201,7 @@
 			<div class="slide cienporcien">
 				<div class="info text-center">
 					<h2>SALA DE JUEGOS Y TV</h2>
-					<h3>CONSOLAS,  VIDEOJUEGOS, TELEVISORES, TACA TACA O FUTBOLITO, MESA DE PING PONG Y MESA DE POOL.</h3>
+<!-- 					<h3>CONSOLAS,  VIDEOJUEGOS, TELEVISORES, TACA TACA O FUTBOLITO, MESA DE PING PONG Y MESA DE POOL.</h3> -->
 					<a href="javascript:void(0);" class="ease vermas">
 						VER MÁS
 					</a>
@@ -273,7 +211,7 @@
 			<div class="slide cienporcien">
 				<div class="info text-center">
 					<h2>SALA DE ESTUDIOS</h2>
-					<h3>A TODO DAR, LA COMODIDAD DE ESTA SALA ES IMPRESIONANTE, PUEDES USARLA CUANDO QUIERAS Y ASÍ NO PASAR ENCERRADO EN TU HABITACIÓN ESTUDIANDO.</h3>
+<!-- 					<h3>A TODO DAR, LA COMODIDAD DE ESTA SALA ES IMPRESIONANTE, PUEDES USARLA CUANDO QUIERAS Y ASÍ NO PASAR ENCERRADO EN TU HABITACIÓN ESTUDIANDO.</h3> -->
 					<a href="javascript:void(0);" class="ease vermas">
 						VER MÁS
 					</a>
@@ -285,46 +223,32 @@
   	<section id="comunidad">
   		<div class="container">
   			<div class="row text-center">
-  				<div class="col-md-4 comunidadbox" id="blogbox">
-  					<h1>Blog</h1>
-					<a href="javascript:void(0);" class="ease vermas">
-						VER MÁS
-					</a>
+  				<div class="col-md-4 comunidadbox" >
+  					
 					<div class="row">
-						<div class="col-sm-10 col-sm-offset-1">
-							<img src="assets/img/BLOG.jpg" class="img-responsive">
-							<h2>10 eventos en Santiago imperdibles este verano</h2>
+						<div class="col-sm-8 col-sm-offset-2">
+							<img src="assets/img/hash_livinn_santiago.png" class="img-responsive" id="hashlivinn">
+							<h2>¡Usa el #livinnsantiago y repostearemos tus fotos en nuestra redes sociales!</h2>
 						</div>
 					</div>
-  				</div>
-  				<div class="col-md-4 comunidadbox" id="eventosbox">
-  					<h1>Eventos</h1>
-					<a href="javascript:void(0);" class="ease vermas">
+					<a href="page-comunidad.php" class="ease vermas">
 						VER MÁS
 					</a>
-					<div class="row">
-						<div class="col-sm-10 col-sm-offset-1">
-							<img src="assets/img/Eventos.jpg" class="img-responsive">
-							<h2>Bienvenida 2018: Nuevos Residentes!!</h2>
-						</div>
-					</div>
   				</div>
-  				<div class="col-md-4 comunidadbox">
-  					<h1>#LivinnSantiago</h1>
-					<a href="javascript:void(0);" class="ease vermas">
-						VER MÁS
-					</a>
+  				<div class="col-md-8 comunidadbox">
+					<div data-is data-is-api="assets/instashow2/api/" data-is-source='["@livinnsantiago"]' data-is-post-template='classic' data-is-rows='2' data-is-gutter='20' data-is-post-elements='[]' data-is-popup-elements='["user","location","followButton","instagramLink","likesCount","share","text","date"]' data-is-lang='es'></div>
   				</div>
   			</div>
   		</div>
   	</section>
   	<section id="lugares">
-  		<div class="container">
-  			<div class="row">
-  				<div class="col-sm-10 col-sm-offset-1">
-  					<div class="row">
+	  	<div id="overlay" class="cienporcien"></div>
+  		<div class="container cienporcien">
+  			<div class="row cienporcien">
+  				<div class="col-sm-11 cienporcien">
+  					<div class="row cienporcien">
   						<div class="col-sm-4 lugarbox">
-  							<h1>Lugares de interés</h1>
+  							<h1>Lugares de interés<br>en Chile</h1>
   							<p>Selecciona tu lugar para visitar</p>
   							<div class="form-group">
 	  							<select name="tipolugar" id="tipolugar"  class="form-control">
@@ -343,10 +267,8 @@
 	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_6">Cordillera</a></li>
   							</ol>
   						</div>
-  						<div class="col-sm-4 lugarbox" id="lugarboxfoto">
-  							
-  						</div>
-  						<div class="col-sm-4 lugarbox" id="lugarboxinfo">
+  						
+  						<div class="col-sm-7 col-sm-offset-1 text-right cienporcien" id="lugarboxinfo">
 	  						<div id="txt-LUGARES_DE_INTERES_1" class="lugarboxinfo hide">
 	  							<h2>Torres del paine</h2>
 	  							<p>El Parque Nacional Torres del Paine está ubicado en la Patagonia de Chile, es conocido por sus altas montañas. Sin embargo, son las 3 torres de granito que dan su nombre al parque. Los glaciares y las praderas albergan una fauna poco común y conforman un paisaje muy hermoso. Sin duda, un lugar imperdible en Chile.</p>
@@ -377,17 +299,5 @@
   			</div>
   		</div>
   	</section>
-  	<footer class="text-center">
-	  	<p>© Copyright <a href="javascript:void(0);">Livinn Santiago</a> | <a href="javascript:void(0);">Términos y condiciones</a> </p>
-  	</footer>
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<script src="assets/js/livinn.js"></script>
-  </body>
-</html>
+  	
+<?php include('footer.php'); ?>
