@@ -181,7 +181,6 @@
 			<div class="slide cienporcien">
 				<div class="info text-center">
 					<h2>BBQ</h2>
-<!-- 					<h3>ÚSALO CUANDO QUIERAS, SOLO PREGUNTA POR SU DISPONIBILIDAD.</h3> -->
 					<a href="javascript:void(0);" class="ease vermas">
 						VER MÁS
 					</a>
@@ -191,7 +190,6 @@
 			<div class="slide cienporcien">
 				<div class="info text-center">
 					<h2>PISCINA</h2>
-<!-- 					<h3>LIBRE PARA TI LOS 7 DÍAS DE LA SEMANA!</h3> -->
 					<a href="javascript:void(0);" class="ease vermas">
 						VER MÁS
 					</a>
@@ -201,7 +199,6 @@
 			<div class="slide cienporcien">
 				<div class="info text-center">
 					<h2>SALA DE JUEGOS Y TV</h2>
-<!-- 					<h3>CONSOLAS,  VIDEOJUEGOS, TELEVISORES, TACA TACA O FUTBOLITO, MESA DE PING PONG Y MESA DE POOL.</h3> -->
 					<a href="javascript:void(0);" class="ease vermas">
 						VER MÁS
 					</a>
@@ -211,7 +208,6 @@
 			<div class="slide cienporcien">
 				<div class="info text-center">
 					<h2>SALA DE ESTUDIOS</h2>
-<!-- 					<h3>A TODO DAR, LA COMODIDAD DE ESTA SALA ES IMPRESIONANTE, PUEDES USARLA CUANDO QUIERAS Y ASÍ NO PASAR ENCERRADO EN TU HABITACIÓN ESTUDIANDO.</h3> -->
 					<a href="javascript:void(0);" class="ease vermas">
 						VER MÁS
 					</a>

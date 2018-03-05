@@ -108,6 +108,10 @@ a.vermas:hover{text-decoration: none; border: 2px solid #ff226f;}
 #eventosbox{ border-right:  6px solid #fff;}
 
 
+a.vermas.black{width: auto; display: inline-block; border: 2px solid #000; padding: 5px 10px 2px; color: #000; font-size: 24px; margin: 20px auto;}
+a.vermas.black:hover{text-decoration: none; border: 2px solid #ff226f;}
+
+
 #hashlivinn{margin-top: 40px;}
 #eapps-instagram-feed-1 .eapps-instagram-feed-posts-item, #eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-content, #eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-text, #eapps-instagram-feed-1 .eapps-instagram-feed-posts-item a, #eapps-instagram-feed-1 .eapps-instagram-feed-posts-item a:hover{
 	-webkit-box-shadow: 0px 0px 17px 2px rgba(0,0,0,0.56);
@@ -285,6 +289,13 @@ ul#tipos-pasos li.linea:after {
     right: -42px;
 }
 
+#habitaciones .row{margin-bottom: 10px; background: #eee; padding: 5px; border: 1px solid #ccc;}
+#habitaciones .row .col-sm-6{padding-left: 0;}
+#habitaciones .row h3{}
+#habitaciones .row h4{font-family: helvetica, arial, sans-serif; font-weight: 100; font-size: 16px;}
+#habitaciones .row a{color: #ea1f66;}
+#habitaciones .row img{}
+
 #habitacion{margin-bottom: 20px;}
 #habitacion a.ver-planos{padding: 10px 15px; text-transform: uppercase;font-family: helvetica, arial, sans-serif; font-weight: 900; color: #000; display: inline-block; font-size: 20px;}
 #habitacion h2{font-family: helvetica, arial, sans-serif; font-weight: 900; margin-top: 0;}
@@ -311,6 +322,10 @@ p.disclaimer{font-family: helvetica, arial, sans-serif; font-weight: 100; font-s
 
 
 #alianzas {padding: 40px 0;}
+.descuento{border: 2px dashed #e2007a; position: relative; margin: 15px 0 10px;}
+.tijera{position: absolute; top: -17px; left: 10px;}
+#descuentos{margin-top: 20px;}
+
 #testimonios h1,
 #alianzas h1 {
     color: #e2007a;
@@ -341,7 +356,9 @@ p.disclaimer{font-family: helvetica, arial, sans-serif; font-weight: 100; font-s
     border: none;
     border-bottom: 1px solid #000;
 }
-
+.panel-heading { padding: 20px 15px;}
+.panel-title { font-size: 19px; }
+.panel-default>.panel-heading+.panel-collapse>.panel-body{font-family: helvetica, arial, sans-serif;}
 
 #mapa-head{background: url(../img/bg-ubicacion.jpg) no-repeat center center; background-size: cover; padding: 100px 0 300px;}
 #mapa-body{}
@@ -395,7 +412,10 @@ p.disclaimer{font-family: helvetica, arial, sans-serif; font-weight: 100; font-s
   padding: 25% 0;
   transition: all 0.2s ease-in-out;
   filter: grayscale(100%);
+  position: relative;
 }
+.evento span{color: #fff; font-size: 40px; position: absolute; text-align: center; display: inline-block; width: 100%; left: 0; bottom: -70px; transition: all 0.2s ease-in-out;}
+.evento:hover span{bottom: 25%;}
 .evento:hover{filter: grayscale(0%); cursor: pointer;}
 .evento h2{color: #fff; font-size: 50px; }
 #evento1{background: url(../img/evento1.jpg) no-repeat center center; background-size: cover;}

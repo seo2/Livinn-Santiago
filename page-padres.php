@@ -119,17 +119,67 @@
 	  			</div>
 	  		</div>
 	  	</div>
-	  	<div class="container">
+	  	<div class="container" id="descuentos">
 	  		<div class="row">
-	  		</div>
-	  		<div class="row">
-	  			<div class="col-sm-10 col-sm-offset-1">
-	  				
-	  				
-	  				
+	  			<div class="col-sm-3">
+		  			<div class="descuento">
+			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
+		  				<img src="assets/img/descuentos/descuento1.jpg" class="img-responsive">
+		  			</div>
+	  			</div>
+	  			<div class="col-sm-3">
+		  			<div class="descuento">
+			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
+		  				<img src="assets/img/descuentos/descuento2.jpg" class="img-responsive">
+		  			</div>
+	  			</div>
+	  			<div class="col-sm-3">
+		  			<div class="descuento">
+			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
+		  				<img src="assets/img/descuentos/descuento3.jpg" class="img-responsive">
+		  			</div>
+	  			</div>
+	  			<div class="col-sm-3">
+		  			<div class="descuento">
+			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
+		  				<img src="assets/img/descuentos/descuento4.jpg" class="img-responsive">
+		  			</div>
+	  			</div>
+	  			<div class="col-sm-3">
+		  			<div class="descuento">
+			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
+		  				<img src="assets/img/descuentos/descuento5.jpg" class="img-responsive">
+		  			</div>
+	  			</div>
+	  			<div class="col-sm-3">
+		  			<div class="descuento">
+			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
+		  				<img src="assets/img/descuentos/descuento6.jpg" class="img-responsive">
+		  			</div>
+	  			</div>
+	  			<div class="col-sm-3">
+		  			<div class="descuento">
+			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
+		  				<img src="assets/img/descuentos/descuento7.jpg" class="img-responsive">
+		  			</div>
+	  			</div>
+	  			<div class="col-sm-3">
+		  			<div class="descuento">
+			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
+		  				<img src="assets/img/descuentos/descuento8.jpg" class="img-responsive">
+		  			</div>
 	  			</div>
 	  		</div>
 	  	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<a href="page-comunidad.php" class="ease vermas black">
+						CARGAR MÁS
+					</a>
+				</div>
+			</div>
+		</div>
   	</section>
   	<section id="faq-head">
 	  	<div class="container">
@@ -149,13 +199,13 @@
 					    <div class="panel-heading" role="tab" id="heading1">
 					      <h4 class="panel-title">
 					        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-					          Collapsible Group Item #1
-					        </a>
+					          ¿Cómo puedo conocer la disponibilidad de los pisos y departamentos?</a>
 					      </h4>
 					    </div>
 					    <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
 					      <div class="panel-body">
-					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					        La disponibilidad de los pisos y departamentos se van viendo a medida que los residentes van firmando el contrato de arrendatario.
+
 					      </div>
 					    </div>
 					  </div>
@@ -163,13 +213,13 @@
 					    <div class="panel-heading" role="tab" id="heading2">
 					      <h4 class="panel-title">
 					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-					          Collapsible Group Item #2
+					          ¿Cómo se llevará a cabo el uso de los servicios? (impresiones, gimnasio, sala de juegos, etc)
 					        </a>
 					      </h4>
 					    </div>
 					    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
 					      <div class="panel-body">
-					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					        Los residentes se presentarán con una tarjeta electrónica para acceder.
 					      </div>
 					    </div>
 					  </div>
@@ -177,27 +227,27 @@
 					    <div class="panel-heading" role="tab" id="heading3">
 					      <h4 class="panel-title">
 					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
-					          Collapsible Group Item #3
+					         ¿Se puede reservar el espacio común?
 					        </a>
 					      </h4>
 					    </div>
 					    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
 					      <div class="panel-body">
-					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					        Las salas de reuniones están aptas para reservaciones de acuerdo a disponibilidad en el momento, sin embargo, las instalaciones más grandes,&nbsp;como la piscina, sala de yoga, salas de estudio no pueden ser&nbsp;reservados para uso personal, ya que son áreas comunes del edificio.
 					      </div>
 					    </div>
 					  </div>
 					  <div class="panel panel-default">
 					    <div class="panel-heading" role="tab" id="heading4">
 					      <h4 class="panel-title">
-					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse3">
-					          Collapsible Group Item #4
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+					          ¿Los departamentos son mixtos?
 					        </a>
 					      </h4>
 					    </div>
 					    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
 					      <div class="panel-body">
-					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					         Si la persona indica que quiere tener una pieza compartida con el sexo opuesto,&nbsp;esta información se recoge en el perfil de búsqueda de compañero de piso.
 					      </div>
 					    </div>
 					  </div>
@@ -205,13 +255,152 @@
 					    <div class="panel-heading" role="tab" id="heading5">
 					      <h4 class="panel-title">
 					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse3">
-					          Collapsible Group Item #5
+					          ¿Se puede recibir visitas? ¿En cualquier horario?
 					        </a>
 					      </h4>
 					    </div>
 					    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
 					      <div class="panel-body">
-					        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					        Los residentes sí&nbsp;pueden invitar a sus amigos, simplemente tienen que registrarlos a través de nuestra aplicación. No hay restricciones en las horas de los huéspedes, ya que el edificio tiene 24/7 en la gestión&nbsp;de las instalaciones y servicios de conserjería.
+					       </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="heading6">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+					          ¿Cuáles son los horarios permitidos para hacer ruidos en la semana?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+					      <div class="panel-body">
+					       Los residentes pueden hacer ruido hasta las 23:00 durante la semana y 2:00&nbsp;am los fines de semana.
+					       </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="heading7">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+					          ¿Todos los departamentos cuentan con estacionamientos?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+					      <div class="panel-body">
+					       Los residentes que tienen automóvil o moto, pagan alquiler adicional por el uso de&nbsp;estacionamiento.
+					       </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="heading8">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+					          ¿Cuenta con accesos y comodidad para discapacitados?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+					      <div class="panel-body">
+					       Si cuenta con accesos y comodidad para estudiantes discapacitados.
+					       </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="heading9">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+					          ¿Está permitido fumar dentro de los departamentos?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+					      <div class="panel-body">
+					       No está permitido fumar dentro del edificio, o lugares que estén techados. Los&nbsp;residentes pueden fumar en su balcón, en los espacios comunes al aire libre y/o&nbsp;fuera de la comunidad.
+					       </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="heading10">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+					          ¿Se permiten mascotas?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+					      <div class="panel-body">
+					       No se permiten mascotas dentro del edificio.
+					       </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="heading11">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+					          ¿Qué sucede en el caso de que haya problemas de convivencia en las piezas?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+					      <div class="panel-body">
+					       En el caso de que exista un conflicto entre compañeros de habitación, utilizaremos la oportunidad para enseñar sobre el compromiso y la convivencia. Si los residentes resuelven sus diferencias, siguen compartiendo juntos. Si no pueden llegar a un acuerdo, se trasladará a uno de los dos residentes a otra habitación.Contamos con un staff de “resident life” que se preocupará las 24hrs de la convivencia y el bienestar de los estudiantes.					       </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="heading12">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+					          ¿Cuáles son las formas de pago?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+					      <div class="panel-body">
+					       No se aceptan cheques, aceptamos: paypal, tarjetas de crédito, transferencia y depósitos.
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="heading13">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+					          ¿Qué incluye la garantía?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+					      <div class="panel-body">
+					       El depósito de garantía se lleva a cabo para asegurar que el residente devuelva el&nbsp;apartamento y el mobiliario en el mismo estado en que lo recibió.
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="heading14">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
+					          ¿Puedo renovar contrato por un año más?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+					      <div class="panel-body">
+					       Los residentes pueden optar a renovar un año más su estadía, pero no se permite&nbsp;ir renovando mes a mes.
+					      </div>
+					    </div>
+					  </div>
+					  <div class="panel panel-default">
+					    <div class="panel-heading" role="tab" id="heading15">
+					      <h4 class="panel-title">
+					        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="false" aria-controls="collapse15">
+					          ¿Qué pasa si quiero cancelar mi contrato?
+					        </a>
+					      </h4>
+					    </div>
+					    <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15">
+					      <div class="panel-body">
+					       Los residentes tienen que encontrar a alguien para hacerse cargo de su contrato si&nbsp;desean salir.
 					      </div>
 					    </div>
 					  </div>

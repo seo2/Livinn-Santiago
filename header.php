@@ -21,11 +21,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR6hB5MYlR_drVTQ9_4BdAjkEEU7OF6fI" async defer></script>
+	<script defer src="assets/js/fontawesome-all.min.js"></script>
 
 	<link href="assets/img/logofavicon.ico" rel="shortcut icon" type="image/x-icon"/>
 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDR6hB5MYlR_drVTQ9_4BdAjkEEU7OF6fI" async defer></script>
   </head>
   <body>
 	<a href="page-alojamientos.php#alojamientos" id="btn-reserva" class="ease">Reserva Ahora</a>

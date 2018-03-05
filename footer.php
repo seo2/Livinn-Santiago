@@ -21,6 +21,7 @@
 	<script src="assets/js/owl.carousel.min.js"></script>
 	<script src="assets/instashow2/elfsight-instagram-feed.js"></script>
 	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/simple-lightbox.min.js"></script>
 	<script src="assets/js/livinn.js"></script>
   </body>
 </html>

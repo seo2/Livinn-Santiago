@@ -17,27 +17,6 @@
 				<div class="slide cienporcien">
 					<img src="assets/img/slider-blog1.jpg" class="img-responsive">
 				</div>
-				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-01.jpg" class="img-responsive">
-				</div>
-				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-02.jpg" class="img-responsive">
-				</div>
-				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-03.jpg" class="img-responsive">
-				</div>
-				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-04.jpg" class="img-responsive">
-				</div>
-				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-05.jpg" class="img-responsive">
-				</div>
-				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-06.jpg" class="img-responsive">
-				</div>
-				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-07.jpg" class="img-responsive">
-				</div>
 			</div>
   	</section>
   	<section id="blog" class="text-center">
@@ -77,56 +56,29 @@
 	  			</div>
 	  		</div>
 	  	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<a href="page-comunidad.php" class="ease vermas black">
+						CARGAR MÁS
+					</a>
+				</div>
+			</div>
+		</div>
   	</section>
 
   	<section id="comunidad">
   		<div class="container">
   			<div class="row text-center">
   				<div class="col-md-4 comunidadbox" >
-  					
 					<div class="row">
 						<div class="col-sm-8 col-sm-offset-2">
 							<img src="assets/img/hash_livinn_santiago.png" class="img-responsive" id="hashlivinn">
 							<h2>¡Usa el #livinnsantiago y repostearemos tus fotos en nuestra redes sociales!</h2>
 						</div>
 					</div>
-<!--
-					<a href="javascript:void(0);" class="ease vermas">
-						VER MÁS
-					</a>
--->
   				</div>
   				<div class="col-md-8 comunidadbox">
-<!--
-                        <div data-is
-						    data-is-api="assets/instashow2/api/"
-							data-is-source="@livinnsantiago"
-						    data-is-width="auto"
-						    data-is-height="auto"
-						    data-is-columns="5"
-							data-is-drag-control="false"
-						    data-is-rows="2"
-						    data-is-gutter="20" 
-						    data-is-direction="vertical"
-						    data-is-speed="1100" 
-						    data-is-easing="ease-in-out" 
-						    data-is-auto="2000" 
-						    data-is-popup-easing="ease-in-out" 
-						    data-is-lang="es"
-						    data-is-info="likesCounter, description"
-							data-is-color-gallery-overlay="rgba(241,61,65,0.9)"
-							data-is-color-popup-controls ="rgb(241,61,65)"
-							data-is-color-popup-controls-hover ="rgb(241,61,65)"
-							data-is-popup-deep-linking="true"
-							data-is-color-popup-overlay="rgba(255,255,255,.9)"
-							data-is-popup-info="none"
-							data-is-responsive='{ "600": { "columns": 3, "rows": 4, "gutter": 10 }}'
-							data-is-scrollbar="false"
-							data-is-easing="ease-in-out"
-							data-is-arrows-control="false" 
-						>
-						</div>	
--->
 						<div data-is data-is-api="assets/instashow2/api/" data-is-source='["@livinnsantiago"]' data-is-post-template='classic' data-is-rows='2' data-is-gutter='20' data-is-post-elements='[]' data-is-popup-elements='["user","location","followButton","instagramLink","likesCount","share","text","date"]' data-is-lang='es'></div>
   				</div>
   			</div>
@@ -143,12 +95,39 @@
   	</section>	
   	<section id="eventos-body">
 	  	<div class="grid text-center">
-		  	<div class="evento" id="evento1"><h2>NAVIDAD</h2></div>
-		  	<div class="evento" id="evento2"><h2>año nuevo</h2></div>
-		  	<div class="evento" id="evento3"><h2>bienvenida</h2></div>
-		  	<div class="evento" id="evento4"><h2>año nuevo</h2></div>
-		  	<div class="evento" id="evento5"><h2>bienvenida</h2></div>
-		  	<div class="evento" id="evento6"><h2>NAVIDAD</h2></div>
+		  	<div class="evento" id="evento1">
+			  	<h2>NAVIDAD</h2>
+			  	<span><i class="fal fa-plus-circle"></i></span>
+		  	</div>
+		  	<div class="evento" id="evento2">
+			  	<h2>año nuevo</h2>
+			  	<span><i class="fal fa-plus-circle"></i></span>
+			</div>
+		  	<div class="evento" id="evento3">
+			  	<h2>bienvenida</h2>
+			  	<span><i class="fal fa-plus-circle"></i></span>
+			</div>
+		  	<div class="evento" id="evento4">
+			  	<h2>año nuevo</h2>
+			  	<span><i class="fal fa-plus-circle"></i></span>
+			</div>
+		  	<div class="evento" id="evento5">
+			  	<h2>bienvenida</h2>
+			  	<span><i class="fal fa-plus-circle"></i></span>
+			</div>
+		  	<div class="evento" id="evento6">
+			  	<h2>NAVIDAD</h2>
+			  	<span><i class="fal fa-plus-circle"></i></span>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<a href="page-comunidad.php" class="ease vermas black">
+						CARGAR MÁS
+					</a>
+				</div>
+			</div>
 		</div>
   	</section>	
   	

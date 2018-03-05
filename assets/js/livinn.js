@@ -99,7 +99,7 @@ function initialize()
     }
   ];
 
-  var myLatLng1 = {lat: -33.4454589, lng: -70.6275955};	
+  var myLatLng1 = {lat: -33.448114, lng: -70.654901};	
   var myLatLng2 = {lat: -12.1067515, lng: -77.0394485};	
   var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
 
@@ -120,8 +120,8 @@ function initialize()
   var marker = new google.maps.Marker({
     position: myLatLng1,
     map: map,
-    title: 'Alta Chile',
-    icon: "2017/images/location-pointer.png?ver=2"
+    title: 'Livinn Santiago',
+    icon: "assets/img/pointer-livinn.png?v=3"
   });
   
   
@@ -134,7 +134,7 @@ function initialize()
   
   	marker.setMap(map);
   	marker2.setMap(map);
-	url = "https://www.google.com/maps/place/Modo+Publicidad+Ltda/@-33.4454589,-70.6297842,17z/data=!4m12!1m6!3m5!1s0x9662cbf1adfc9305:0x377b9704ba1e871e!2sModo+Publicidad+Ltda!8m2!3d-33.4454589!4d-70.6275955!3m4!1s0x9662cbf1adfc9305:0x377b9704ba1e871e!8m2!3d-33.4454589!4d-70.6275955?hl=es-ES";
+	url = "https://www.google.cl/maps/place/Livinn+Santiago+-+Departamentos+para+Estudiantes/@-33.4481095,-70.6559953,18z/data=!4m12!1m6!3m5!1s0x9662c508490f4067:0xa22b2567d585c8b7!2sLivinn+Santiago+-+Departamentos+para+Estudiantes!8m2!3d-33.448114!4d-70.654901!3m4!1s0x9662c508490f4067:0xa22b2567d585c8b7!8m2!3d-33.448114!4d-70.654901";
 	url2 = "https://www.google.cl/maps/place/Av.+Camino+Real+1225,+San+Isidro+15073,+Per%C3%BA/@-12.1067515,-77.0416372,17z/data=!4m13!1m7!3m6!1s0x9105c84735b31ba1:0xad6ea4584f6e391a!2sAv.+Camino+Real+1225,+San+Isidro+15073,+Per%C3%BA!3b1!8m2!3d-12.1067515!4d-77.0394485!3m4!1s0x9105c84735b31ba1:0xad6ea4584f6e391a!8m2!3d-12.1067515!4d-77.0394485?hl=es";
 	marker.addListener('click', function() {
 		window.open(url, '_blank');

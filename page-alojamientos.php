@@ -15,28 +15,19 @@
 			
 			<div class="owl-carousel owl-theme cienporcien" id="carousel1">
 				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-00.jpg" class="img-responsive">
+					<img src="assets/img/slider-alojamientos/1.png" class="img-responsive">
 				</div>
 				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-01.jpg" class="img-responsive">
+					<img src="assets/img/slider-alojamientos/2.png" class="img-responsive">
 				</div>
 				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-02.jpg" class="img-responsive">
+					<img src="assets/img/slider-alojamientos/3.png" class="img-responsive">
 				</div>
 				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-03.jpg" class="img-responsive">
+					<img src="assets/img/slider-alojamientos/4.png" class="img-responsive">
 				</div>
 				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-04.jpg" class="img-responsive">
-				</div>
-				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-05.jpg" class="img-responsive">
-				</div>
-				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-06.jpg" class="img-responsive">
-				</div>
-				<div class="slide cienporcien">
-					<img src="assets/img/slider-alojamientos-07.jpg" class="img-responsive">
+					<img src="assets/img/slider-alojamientos/5.png" class="img-responsive">
 				</div>
 			</div>
   	</section>
@@ -222,7 +213,69 @@
 						</div>	    					
 	  				</form>
 	  			</div>
-	  			<div class="col-sm-5 col-sm-offset-1" id="habitacion">
+	  			<div class="col-sm-5 col-sm-offset-1" id="habitaciones">
+		  			<div class="row">
+		  				<div class="col-sm-6">
+		  					<img src="assets/img/preview-hab.jpg" class="img-responsive">
+		  				</div>
+		  				<div class="col-sm-6">
+		  					<h3>2 habitaciones Camarotes</h3>
+		  					<h4>Desde $230.000</h4>
+		  					<a href="javascript:void(0);" data-id="1">Ver detalles</a>
+		  				</div>
+		  			</div>
+		  			<div class="row">
+		  				<div class="col-sm-6">
+		  					<img src="assets/img/preview-hab.jpg" class="img-responsive">
+		  				</div>
+		  				<div class="col-sm-6">
+		  					<h3>2 habitaciones Camarotes</h3>
+		  					<h4>Desde $230.000</h4>
+		  					<a href="javascript:void(0);" data-id="1">Ver detalles</a>
+		  				</div>
+		  			</div>
+		  			<div class="row">
+		  				<div class="col-sm-6">
+		  					<img src="assets/img/preview-hab.jpg" class="img-responsive">
+		  				</div>
+		  				<div class="col-sm-6">
+		  					<h3>2 habitaciones Camarotes</h3>
+		  					<h4>Desde $230.000</h4>
+		  					<a href="javascript:void(0);" data-id="1">Ver detalles</a>
+		  				</div>
+		  			</div>
+		  			<div class="row">
+		  				<div class="col-sm-6">
+		  					<img src="assets/img/preview-hab.jpg" class="img-responsive">
+		  				</div>
+		  				<div class="col-sm-6">
+		  					<h3>2 habitaciones Camarotes</h3>
+		  					<h4>Desde $230.000</h4>
+		  					<a href="javascript:void(0);" data-id="1">Ver detalles</a>
+		  				</div>
+		  			</div>
+		  			<div class="row">
+		  				<div class="col-sm-6">
+		  					<img src="assets/img/preview-hab.jpg" class="img-responsive">
+		  				</div>
+		  				<div class="col-sm-6">
+		  					<h3>2 habitaciones Camarotes</h3>
+		  					<h4>Desde $230.000</h4>
+		  					<a href="javascript:void(0);" data-id="1">Ver detalles</a>
+		  				</div>
+		  			</div>
+		  			<div class="row">
+		  				<div class="col-sm-6">
+		  					<img src="assets/img/preview-hab.jpg" class="img-responsive">
+		  				</div>
+		  				<div class="col-sm-6">
+		  					<h3>2 habitaciones Camarotes</h3>
+		  					<h4>Desde $230.000</h4>
+		  					<a href="javascript:void(0);" data-id="1">Ver detalles</a>
+		  				</div>
+		  			</div>
+	  			</div>
+	  			<div class="col-sm-5 col-sm-offset-1 hide" id="habitacion">
 		  			<div class="row">
 		  				<div class="col-sm-12">
 		  					<img src="assets/img/preview-hab.jpg" class="img-responsive">
