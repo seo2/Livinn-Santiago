@@ -39,109 +39,175 @@
 	  	<div class="container">
 	  		<div class="row">
 	  			<div class="col-sm-10 col-sm-offset-1">
-				  	<p>Livinn Santiago es el primero edificio de la empresa CA Ventures fuera de EEUU.</p>
-				  	<p>Con 144 apartamentos y mas de 350 estudiantes, este nuevo concepto de alojamiento en Santiago se ha convertido en un punto de encuentro para estudiantes de todo el mundo. Descúbrenos <a href="https://www.instagram.com/explore/tags/livinnsantiago/" target="_blank">#livinnsantiago</a> <a href="https://www.instagram.com/explore/tags/familialivinn/" target="_blank">#familialivinn</a>
+				  	<p>Livinn Santiago es el primero edificio de la empresa <a href="https://ca-ventures.com/" target="_blank" style="display:inline-block">CA Ventures</a> fuera de EEUU.</p>
+				  	<p>Con 144 apartamentos y mas de 350 estudiantes, este nuevo concepto de alojamiento en Santiago se ha convertido en un punto de encuentro para estudiantes de todo el mundo.</p>
+				  	<p>Descúbrenos <a href="https://www.instagram.com/explore/tags/livinnsantiago/" target="_blank">#livinnsantiago</a> <a href="https://www.instagram.com/explore/tags/familialivinn/" target="_blank">#familialivinn</a>
 </p>
 	  			</div>
 	  		</div>
 	  	</div>
   	</section>
   	<section id="beneficios">
-
+		<div class="owl-carousel owl-theme cienporcien" id="carousel2">
+			<div class="slide cienporcien">
+				<div class="info text-center">
+					<h2>Gimnasio</h2>
+<!-- 					<h3>Full equipado, clases de yoga, Hiit, Zumba y más</h3> -->
+					<a href="page-alojamientos.php#galeria" class="ease vermas">
+						VER MÁS
+					</a>
+				</div>
+				<img src="assets/img/SERVICIOS1_CAPA.jpg" class="img-responsive">
+			</div>
+			<div class="slide cienporcien">
+				<div class="info text-center">
+					<h2>BBQ</h2>
+					<a href="page-alojamientos.php#galeria" class="ease vermas">
+						VER MÁS
+					</a>
+				</div>
+				<img src="assets/img/SERVICIOS2_CAPA.jpg" class="img-responsive">
+			</div>
+			<div class="slide cienporcien">
+				<div class="info text-center">
+					<h2>PISCINA</h2>
+					<a href="page-alojamientos.php#galeria" class="ease vermas">
+						VER MÁS
+					</a>
+				</div>
+				<img src="assets/img/SERVICIOS3_CAPA.jpg" class="img-responsive">
+			</div>
+			<div class="slide cienporcien">
+				<div class="info text-center">
+					<h2>SALA DE JUEGOS Y TV</h2>
+					<a href="page-alojamientos.php#galeria" class="ease vermas">
+						VER MÁS
+					</a>
+				</div>
+				<img src="assets/img/SERVICIOS4_CAPA.jpg" class="img-responsive">
+			</div>
+			<div class="slide cienporcien">
+				<div class="info text-center">
+					<h2>SALA DE ESTUDIOS</h2>
+					<a href="page-alojamientos.php#galeria" class="ease vermas">
+						VER MÁS
+					</a>
+				</div>
+				<img src="assets/img/SERVICIOS5_CAPA.jpg" class="img-responsive">
+			</div>
+		</div>
 		<div id="beneficios-box">
 			<h3>Beneficios Incluidos</h3>
 			<div id="beneficios-ico">
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Conectividad en todo el edificio. Acceso personalizado en todos los departamentos.">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-wifi.png" class="img-responsive">
+						<p>Wifi</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-television.png" class="img-responsive">
+						<p>Televisión</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-cocina.png" class="img-responsive">
+						<p>Cocina Integral</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-mobiliario.png" class="img-responsive">
+						<p>Mobiliario</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-gastos.png" class="img-responsive">
+						<p>Gastos Comunes</p>
 					</div>
 				</a>
 				<div class="clearfix"></div>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-yoga.png" class="img-responsive">
+						<p>Sala de Yoga</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-salajuegos.png" class="img-responsive">
+						<p>Sala de Juegos</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-salaestudios.png" class="img-responsive">
+						<p>Sala de Estudios</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-gimnasio.png" class="img-responsive">
+						<p>Gimnasio</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-terraza.png" class="img-responsive">
+						<p>Terraza</p>
 					</div>
 				</a>
 				<div class="clearfix"></div>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-bbq.png" class="img-responsive">
+						<p>BBQ</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-piscina.png" class="img-responsive">
+						<p>Piscina</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-tech.png" class="img-responsive">
+						<p>Tech Zone</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-app.png" class="img-responsive">
+						<p>App Móvil</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-descuentos.png" class="img-responsive">
+						<p>Descuentos y Convenios</p>
 					</div>
 				</a>
 				<div class="clearfix"></div>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-staff.png" class="img-responsive">
+						<p>Staff 24 Horas</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-seguridad.png" class="img-responsive">
+						<p>Seguridad 24 Horas</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-programacion.png" class="img-responsive">
+						<p>Programación de Actividades</p>
 					</div>
 				</a>
 				<div class="clearfix"></div>
@@ -151,68 +217,22 @@
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-lavanderia.png" class="img-responsive">
+						<p>Lavandería</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-excursiones.png" class="img-responsive">
+						<p>Excursiones</p>
 					</div>
 				</a>
 				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
 					<div class="icobox">
 						<img src="assets/img/iconos/ico-estacionamiento.png" class="img-responsive">
+						<p>Estacionamiento</p>
 					</div>
 				</a>
 				<div class="clearfix"></div>
-			</div>
-		</div>
-		
-		<div class="owl-carousel owl-theme cienporcien" id="carousel2">
-			<div class="slide cienporcien">
-				<div class="info text-center">
-					<h2>Gimnasio</h2>
-<!-- 					<h3>Full equipado, clases de yoga, Hiit, Zumba y más</h3> -->
-					<a href="javascript:void(0);" class="ease vermas">
-						VER MÁS
-					</a>
-				</div>
-				<img src="assets/img/SERVICIOS1_CAPA.jpg" class="img-responsive">
-			</div>
-			<div class="slide cienporcien">
-				<div class="info text-center">
-					<h2>BBQ</h2>
-					<a href="javascript:void(0);" class="ease vermas">
-						VER MÁS
-					</a>
-				</div>
-				<img src="assets/img/SERVICIOS2_CAPA.jpg" class="img-responsive">
-			</div>
-			<div class="slide cienporcien">
-				<div class="info text-center">
-					<h2>PISCINA</h2>
-					<a href="javascript:void(0);" class="ease vermas">
-						VER MÁS
-					</a>
-				</div>
-				<img src="assets/img/SERVICIOS3_CAPA.jpg" class="img-responsive">
-			</div>
-			<div class="slide cienporcien">
-				<div class="info text-center">
-					<h2>SALA DE JUEGOS Y TV</h2>
-					<a href="javascript:void(0);" class="ease vermas">
-						VER MÁS
-					</a>
-				</div>
-				<img src="assets/img/SERVICIOS4_CAPA.jpg" class="img-responsive">
-			</div>
-			<div class="slide cienporcien">
-				<div class="info text-center">
-					<h2>SALA DE ESTUDIOS</h2>
-					<a href="javascript:void(0);" class="ease vermas">
-						VER MÁS
-					</a>
-				</div>
-				<img src="assets/img/SERVICIOS5_CAPA.jpg" class="img-responsive">
 			</div>
 		</div>
   	</section>
@@ -232,7 +252,9 @@
 					</a>
   				</div>
   				<div class="col-md-8 comunidadbox">
-					<div data-is data-is-api="assets/instashow2/api/" data-is-source='["@livinnsantiago"]' data-is-post-template='classic' data-is-rows='2' data-is-gutter='20' data-is-post-elements='[]' data-is-popup-elements='["user","location","followButton","instagramLink","likesCount","share","text","date"]' data-is-lang='es'></div>
+					<div data-is data-is-api="assets/instashow2/api/" data-is-source='["@livinnsantiago"]' data-is-post-template='classic' data-is-responsive='[{"minWidth":375,"columns":2,"rows":2,"gutter":"0"},{"minWidth":768,"columns":"3","rows":2,"gutter":"0"}]' data-is-gutter='20' data-is-post-elements='[]' data-is-popup-elements='["user","location","followButton","instagramLink","likesCount","share","text","date"]' data-is-lang='es'></div>
+					
+					
   				</div>
   			</div>
   		</div>
@@ -244,7 +266,8 @@
   				<div class="col-sm-11 cienporcien">
   					<div class="row cienporcien">
   						<div class="col-sm-4 lugarbox">
-  							<h1>Lugares de interés<br>en Chile</h1>
+  							<h1 class="hidden-xs">Lugares de interés<br>en Chile</h1>
+  							<h1 class="visible-xs">Lugares de interés en Chile</h1>
   							<p>Selecciona tu lugar para visitar</p>
   							<div class="form-group">
 	  							<select name="tipolugar" id="tipolugar"  class="form-control">
@@ -254,7 +277,17 @@
 		  							<option value="4">Turismo</option>
 	  							</select>
 							</div>
-  							<ol id="lugares1">
+  							<div class="form-group visible-xs">
+	  							<select name="lugar" id="lugar"  class="form-control">
+		  							<option value="LUGARES_DE_INTERES_1">Torres del paine</option>
+		  							<option value="LUGARES_DE_INTERES_2">Isla de Pascua</option>
+		  							<option value="LUGARES_DE_INTERES_3">San Pedro de Atacama</option>
+		  							<option value="LUGARES_DE_INTERES_4">Valdivia</option>
+		  							<option value="LUGARES_DE_INTERES_5">Pichilemu</option>
+		  							<option value="LUGARES_DE_INTERES_6">Cordillera</option>
+	  							</select>
+							</div>
+  							<ol id="lugares1" class="hidden-xs">
 	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_1">Torres del paine</a></li>
 	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_2">Isla de Pascua</a></li>
 	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_3">San Pedro de Atacama</a></li>

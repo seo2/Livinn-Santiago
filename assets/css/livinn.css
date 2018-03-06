@@ -84,12 +84,13 @@ section{min-height: 200px; position: relative;}
 #beneficios .info{ position: absolute; width: 40%; height: 40%; left: 5%; bottom: -10%; z-index: 9; color: #fff;}
 #beneficios .info h2{font-size: 80px; line-height: 80%;}
 #beneficios .info h3{font-size: 35px; margin-top: 0; margin-bottom: 30px;}
-#beneficios-box{position: absolute; width: 40%; height: 100%; right: 10%; background: rgba(0,0,0,0.5); z-index: 10;}
+#beneficios-box{position: absolute; width: 40%; height: 100%; right: 10%; background: rgba(0,0,0,0.8); z-index: 10; top: 0;}
 #beneficios-box h3{color: #ff226f; text-transform: uppercase; text-align: center; font-size: 36px;}
 #beneficios-ico{}
 #beneficios-ico a{float: left; display: block; width: 20%; position: relative;}
 #beneficios-ico a:after{  content: ""; display: block; padding-bottom: 90%;}
-#beneficios-ico a .icobox{position: absolute; width: 100%; height: 100%;}
+#beneficios-ico a .icobox{position: absolute; width: 100%; height: 100%;  }
+#beneficios-ico a .icobox p{font-family: helvetica, arial, sans-serif;color: #fff; text-align: center;  font-size: 10px; font-weight: 100;}
 #beneficios-ico a img{margin: 0 auto; }
 
 a.vermas{width: 100px; display: inline-block; border: 2px solid #fff; padding: 5px 10px 2px; color: #fff; font-size: 18px; margin-bottom: 20px;}
@@ -99,6 +100,7 @@ a.vermas:hover{text-decoration: none; border: 2px solid #ff226f;}
 #servicios-ico a{float: left; display: block; width: 20%; position: relative;}
 #servicios-ico a:after{  content: ""; display: block; padding-bottom: 90%;}
 #servicios-ico a .icobox{position: absolute; width: 100%; height: 100%;}
+#servicios-ico a .icobox p{font-family: helvetica, arial, sans-serif;color: #fff; text-align: center;  font-size: 10px; font-weight: 100;}
 #servicios-ico a img{margin: 0 auto;}
 
 #comunidad{background: url(../img/bg-02.png) center center #79b8ba; padding: 5px 0; background-size: cover; color: #fff;}
@@ -217,7 +219,7 @@ a.vermas.black:hover{text-decoration: none; border: 2px solid #ff226f;}
 
 
 #lugares{background: url(../img/bg-03.png) center center; padding: 0; background-size: cover; position: relative; height: 80%;}
-#overlay{position: absolute; left: 0; top: 0; width: 100%; background: url(../img/overlay-lugares.png) center bottom; background-size: cover; }
+#overlay{position: absolute; left: 0; bottom: 0; width: 100%; background: url(../img/overlay-lugares.png) center bottom; background-size: cover; }
 .lugarbox{height: 85%; background: rgba(0,0,0,0.8); color: #fff; margin: 5% 0; }
 #lugarboxfoto{border: 10px solid #fff; background-size: cover; background-position: center center;} 
 .lugarboxinfo{position: absolute; bottom: 5%; width: 100%;}
@@ -257,6 +259,19 @@ a.vermas.black:hover{text-decoration: none; border: 2px solid #ff226f;}
 }
 
 #tour{background: #000; padding: 100px 0;}
+#tour-modal{}
+#tour-modal .modal-content{position: relative;}
+#tour-modal .close{position: absolute;  z-index: 100;
+    background: #ea1f66;
+    opacity: 1;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    font-size: 50px;
+    right: -40px;}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
 #galeria{ padding: 40px 0; background: url(../img/bg-02.png) center center #79b8ba; background-size: cover; color: #fff;}
 #galeria h1{margin: 20px 0; }
 .slider-parent{margin-bottom: 20px;}
@@ -301,11 +316,17 @@ ul#tipos-pasos li.linea:after {
 #habitacion h2{font-family: helvetica, arial, sans-serif; font-weight: 900; margin-top: 0;}
 #habitacion ul{list-style: none; padding: 0;}
 #habitacion ul li{font-family: helvetica, arial, sans-serif; font-weight: 100; font-size: 20px;}
-.btn-primary{background: #ea1f66; color: #fff; border-color: #ea1f66; font-size: 20px; line-height: 110%; padding: 10px 20px; font-family: helvetica, arial, sans-serif; letter-spacing: 2px; font-weight: bold;}
+.btn-primary{background: #ea1f66; color: #fff; border-color: #ea1f66; font-size: 20px; line-height: 110%; padding: 10px 20px; font-family: helvetica, arial, sans-serif; letter-spacing: 2px; font-weight: bold; margin-right: 20px;}
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active{background: #000; border-color: #000;}
+#habitacion a.link{font-family: helvetica, arial, sans-serif; color: #ea1f66;}
 label.tit-alojamiento{background: #d4d4d4;font-size: 19px; padding: 5px 0 0 15px; margin: 0; display: block; border-radius: 5px; }
 .checkbox label, .radio label{font-size: 17px;}
 p.disclaimer{font-family: helvetica, arial, sans-serif; font-weight: 100; font-size: 14px; text-transform: uppercase;}
+
+#terms{ height: 300px; overflow: scroll; padding: 5px; border: 1px solid #ccc; margin-bottom: 20px;}
+
+#terms p{font-family: helvetica, arial, sans-serif;font-size: 12px;}
+
 
 /* ------ PADRES Y FUTUROS RESIDENTES ------ */
 
@@ -438,18 +459,53 @@ footer a:hover{color: #fff; text-decoration: none;}
 /* ------ MOBILE ------ */
 
 @media (max-width: 767px){	
+	section{min-height: auto;}
+	a#btn-reserva{top: 140px; z-index: 2000;}
+	.redes { top: 85px;}
 	header { height: 85px; }
 	header .container{position: relative; z-index: 1000; background: #fff;}
 	.nav-pills>li {float: none;}
 	#info-slider img { width: 180px; }
 	#info-slider h1 { font-size: 30px; margin-top: 10px; letter-spacing: 2px; }
 	#acerca p { font-size: 14px;}
-
+	
+	#beneficios { height: auto;}
+	#beneficios .cienporcien{height: auto;}
+	#beneficios .info {
+	    width: 100%;
+	    height: auto;
+	    left: 0;
+	    bottom: 10%;
+	}
+	#beneficios .info h2 {
+	    font-size: 40px;
+	}
+	#beneficios .owl-theme .owl-nav.disabled+.owl-dots { width: 100%;}
+	#beneficios-box {
+	    position: initial;
+	    width: 100%;
+	    height: auto;
+		padding: 10px;
+	}
+	#servicios-ico a .icobox,
+	#beneficios-ico a .icobox{height: auto; }
+	#servicios-ico a:after,
+	#beneficios-ico a:after { padding-bottom: 130%; }
+	
+	#lugares .cienporcien{height: auto;}
+	#overlay { min-height: 100%; }
+	.lugarbox { height: auto; margin: auto; padding: 10px 15px; text-align: center; }
+	.lugarboxinfo {
+	    position: relative;
+	    bottom: 5%;
+	   width: auto;
+	}
+	#lugares p { font-size: 14px;}
 	#alojamientos h1 { font-size: 22px; letter-spacing: 3px; padding: 8px 14px 2px; border: 3px solid #5abfc1;}
 	ul#tipos-pasos li { font-size: 12px; margin: 10px 5px; }
 	ul#tipos-pasos li span { height: 50px; width: 50px; border: 3px solid; line-height: 50px; font-size: 20px; margin: 10px;}
 	ul#tipos-pasos li.linea:after { width: 18%; height: 3px; top: 32px; right: -12px;}
-	.comunidadbox{min-height: 430px; margin-bottom: 20px;}
+	.comunidadbox{}
 	
 
 	#blogbox{border-right:  0; border-bottom:  6px solid #fff;}
@@ -478,7 +534,10 @@ footer a:hover{color: #fff; text-decoration: none;}
 	    padding: 9px 20px 0;
 	    border: 3px solid;
 	}
-	
+	#tour-modal .close{ right: 0;}
 	
 	.grid { grid-template-columns: repeat(1, 1fr); }
+	
+	#mapa-body .container {position: relative;  height: auto; top: 0; }
+	
 }

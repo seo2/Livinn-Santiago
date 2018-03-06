@@ -121,49 +121,49 @@
 	  	</div>
 	  	<div class="container" id="descuentos">
 	  		<div class="row">
-	  			<div class="col-sm-3">
+	  			<div class="col-xs-6 col-sm-3">
 		  			<div class="descuento">
 			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
 		  				<img src="assets/img/descuentos/descuento1.jpg" class="img-responsive">
 		  			</div>
 	  			</div>
-	  			<div class="col-sm-3">
+	  			<div class="col-xs-6 col-sm-3">
 		  			<div class="descuento">
 			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
 		  				<img src="assets/img/descuentos/descuento2.jpg" class="img-responsive">
 		  			</div>
 	  			</div>
-	  			<div class="col-sm-3">
+	  			<div class="col-xs-6 col-sm-3">
 		  			<div class="descuento">
 			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
 		  				<img src="assets/img/descuentos/descuento3.jpg" class="img-responsive">
 		  			</div>
 	  			</div>
-	  			<div class="col-sm-3">
+	  			<div class="col-xs-6 col-sm-3">
 		  			<div class="descuento">
 			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
 		  				<img src="assets/img/descuentos/descuento4.jpg" class="img-responsive">
 		  			</div>
 	  			</div>
-	  			<div class="col-sm-3">
+	  			<div class="col-xs-6 col-sm-3">
 		  			<div class="descuento">
 			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
 		  				<img src="assets/img/descuentos/descuento5.jpg" class="img-responsive">
 		  			</div>
 	  			</div>
-	  			<div class="col-sm-3">
+	  			<div class="col-xs-6 col-sm-3">
 		  			<div class="descuento">
 			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
 		  				<img src="assets/img/descuentos/descuento6.jpg" class="img-responsive">
 		  			</div>
 	  			</div>
-	  			<div class="col-sm-3">
+	  			<div class="col-xs-6 col-sm-3">
 		  			<div class="descuento">
 			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
 		  				<img src="assets/img/descuentos/descuento7.jpg" class="img-responsive">
 		  			</div>
 	  			</div>
-	  			<div class="col-sm-3">
+	  			<div class="col-xs-6 col-sm-3">
 		  			<div class="descuento">
 			  			<img src="assets/img/ico-tijera.jpg" class="tijera">
 		  				<img src="assets/img/descuentos/descuento8.jpg" class="img-responsive">
@@ -419,30 +419,41 @@
 	  	</div>
   	</section>
   	<section id="mapa-body">
-	  	<div style="height:500px;" id="map-canvas"></div>
 	  	<div class="container">
 	  		<div class="row cienporcien">
-	  			<div class="col-xs-6 col-md-3 pull-right" id="mapa-box">
+	  			<div class="col-md-3 pull-right" id="mapa-box">
 		  			<h2>nuestra localización</h2>
 		  			<p>Livinn Santiago, está ubicado en Lord Cochrane 166, cerca a universidades, museos y centros comerciales.</p>
-		  			<a href="javascript:void(0);" class="btn btn-primary">Cómo llegar</a>
-		  			<h2>Qué hay en las cercanías</h2>
+		  			<!-- <a href="javascript:void(0);" class="btn btn-primary">Cómo llegar</a> -->
+		  			<h2>Cómo llegar</h2>
+		  			<p>a las Universidades en las cercanías</p>
 					<div class="form-group">
 						<select name="tipolugar2" id="tipoluga2"  class="form-control">
-							<option value="1">Universidades</option>
-							<option value="2">Universidades</option>
-							<option value="3">Universidades</option>
-							<option value="4">Universidades</option>
+							<option value="0"  >Seleccione</option>
+							<option value="1"  >Universidad Católica</option>
+							<option value="2"  >Universidad de Chile</option>
+							<option value="3"  >Universidad Mayor</option>
+							<option value="4"  >Universidad Andres Bello</option>
+							<option value="5"  >Universidad del Desarrollo</option>
+							<option value="6"  >Universidad Diego Portales</option>
+							<option value="7"  >Universidad de Santiago de Chile</option>
+							<option value="8"  >Universidad de los Andes</option>
+							<option value="9"  >Universidad Santo Tomas</option>
+							<option value="10" >Duoc UC</option>
+							<option value="11" >Universidad Central de Chile</option>
+							<option value="12" >Universidad Autónoma</option>
+							<option value="13" >Universidad Adolfo Ibañez</option>
+							<option value="14" >Universidad Alberto Hurtado</option>
+							<option value="15" >Inacap</option>
+							<option value="16" >UNIACC</option>
+							<option value="17" >Universidad Finis Terrae</option>
+							<option value="18" >Universidad San Sebastian</option>
 						</select>
-					</div>
-					<ol>
-						<li><a href="javascript:void(0);" id="LUGARES_CERCANOS_1">Universidad Católica</a></li>
-						<li><a href="javascript:void(0);" id="LUGARES_CERCANOS_2">Universidad de Chile</a></li>
-						<li><a href="javascript:void(0);" id="LUGARES_CERCANOS_3">Universidad Diego Portales</a></li>
-					</ol>
+					</div>	
 	  			</div>
 	  		</div>
 	  	</div>
+	  	<div style="height:500px;" id="map-canvas"></div>
   	</section>
   	<section id="testimonios">
 	  	<div class="container">
