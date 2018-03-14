@@ -1,237 +1,111 @@
 <?php include('header.php'); ?>
 
+<?php
+		$the_query = new WP_Query( array(
+		    'post_type' 		=> 'home'
+		) );
+		while ( $the_query->have_posts() ) :   
+	  			 $the_query->the_post();
+?>						
+
   	<section id="slider">
 	  	
 		<div id="info-slider">
-			<img src="assets/img/livinn-es-una-aventura.png">
+			<img src="<?php bloginfo('template_url'); ?>/assets/img/livinn-es-una-aventura.png">
 			<h1 class="cyan">Ven y descubre</h1>
-		</div>
-
-		<div class='redes'>
-			<ul>
-				<li><a target="_blank" href="https://www.facebook.com/LivinnSantiagoChile/"><img src="assets/img/ico-fb.png" class="img-responsive"></a></li>
-				<li><a target="_blank" href="https://twitter.com/livinnchile"><img src="assets/img/ico-tw.png" class="img-responsive"></a></li>
-				<li><a target="_blank" href="https://www.instagram.com/livinnsantiago/"><img src="assets/img/ico-in.png" class="img-responsive"></a></li>
-			</ul>
-		</div> 	  			
+		</div>			
 		<div class="owl-carousel owl-theme cienporcien" id="carousel1">
+	   	<?php
+		   	$i = 0;
+			$sliders = get_order_field('slider_foto');
+			foreach($sliders as $slider){   
+				$i++;
+		?>   				
 			<div class="slide cienporcien">
-				<img src="assets/img/slider-home/1.png" class="img-responsive">
+				<img src="<?php echo get('slider_foto',1,$slider); ?>" class="img-responsive">
 			</div>
-			<div class="slide">
-				<img src="assets/img/slider-home/2.png" class="img-responsive">
-			</div>
-			<div class="slide">
-				<img src="assets/img/slider-home/3.png" class="img-responsive">
-			</div>
-			<div class="slide">
-				<img src="assets/img/slider-home/4.png" class="img-responsive">
-			</div>
-			<div class="slide">
-				<img src="assets/img/slider-home/5.png" class="img-responsive">
-			</div>
-			<div class="slide">
-				<img src="assets/img/slider-home/6.png" class="img-responsive">
-			</div>
+		<?php } ?>
 		</div>
   	</section>
   	<section id="acerca" class="text-center">
 	  	<div class="container">
 	  		<div class="row">
 	  			<div class="col-sm-10 col-sm-offset-1">
-				  	<p>Livinn Santiago es el primero edificio de la empresa <a href="https://ca-ventures.com/" target="_blank" style="display:inline-block">CA Ventures</a> fuera de EEUU.</p>
-				  	<p>Con 144 apartamentos y mas de 350 estudiantes, este nuevo concepto de alojamiento en Santiago se ha convertido en un punto de encuentro para estudiantes de todo el mundo.</p>
-				  	<p>Descúbrenos <a href="https://www.instagram.com/explore/tags/livinnsantiago/" target="_blank">#livinnsantiago</a> <a href="https://www.instagram.com/explore/tags/familialivinn/" target="_blank">#familialivinn</a>
-</p>
+					<?php the_content(); ?>						
 	  			</div>
 	  		</div>
 	  	</div>
-  	</section>
+  	</section>	
+
   	<section id="beneficios">
 		<div class="owl-carousel owl-theme cienporcien" id="carousel2">
+		   	<?php
+			   	$i = 0;
+				$sliders = get_order_group('slider_beneficios_imagen');
+				foreach($sliders as $slider){   
+					$i++;
+			?>   			
 			<div class="slide cienporcien">
 				<div class="info text-center">
-					<h2>Gimnasio</h2>
-<!-- 					<h3>Full equipado, clases de yoga, Hiit, Zumba y más</h3> -->
-					<a href="page-alojamientos.php#galeria" class="ease vermas">
+					<h2><?php echo get('slider_beneficios_titulo',$slider); ?></h2>
+					<a href="<?php bloginfo('url'); ?>/tipos-de-alojamiento#galeria" class="ease vermas">
 						VER MÁS
 					</a>
 				</div>
-				<img src="assets/img/SERVICIOS1_CAPA.jpg" class="img-responsive">
+				<img src="<?php echo get('slider_beneficios_imagen',$slider); ?>" class="img-responsive">
 			</div>
-			<div class="slide cienporcien">
-				<div class="info text-center">
-					<h2>BBQ</h2>
-					<a href="page-alojamientos.php#galeria" class="ease vermas">
-						VER MÁS
-					</a>
-				</div>
-				<img src="assets/img/SERVICIOS2_CAPA.jpg" class="img-responsive">
-			</div>
-			<div class="slide cienporcien">
-				<div class="info text-center">
-					<h2>PISCINA</h2>
-					<a href="page-alojamientos.php#galeria" class="ease vermas">
-						VER MÁS
-					</a>
-				</div>
-				<img src="assets/img/SERVICIOS3_CAPA.jpg" class="img-responsive">
-			</div>
-			<div class="slide cienporcien">
-				<div class="info text-center">
-					<h2>SALA DE JUEGOS Y TV</h2>
-					<a href="page-alojamientos.php#galeria" class="ease vermas">
-						VER MÁS
-					</a>
-				</div>
-				<img src="assets/img/SERVICIOS4_CAPA.jpg" class="img-responsive">
-			</div>
-			<div class="slide cienporcien">
-				<div class="info text-center">
-					<h2>SALA DE ESTUDIOS</h2>
-					<a href="page-alojamientos.php#galeria" class="ease vermas">
-						VER MÁS
-					</a>
-				</div>
-				<img src="assets/img/SERVICIOS5_CAPA.jpg" class="img-responsive">
-			</div>
+			<?php } ?>
 		</div>
+
+<?php
+
+					endwhile;
+?>			
 		<div id="beneficios-box">
 			<h3>Beneficios Incluidos</h3>
 			<div id="beneficios-ico">
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Conectividad en todo el edificio. Acceso personalizado en todos los departamentos.">
+<?php
+		$the_query = new WP_Query( array(
+		    'post_type' 		=> 'beneficio',
+            'posts_per_page' 	=> -1
+		    
+		) );
+		while ( $the_query->have_posts() ) :   
+	  			 $the_query->the_post();
+?>				
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="<?php echo get('tooltip'); ?>">
 					<div class="icobox">
-						<img src="assets/img/iconos/ico-wifi.png" class="img-responsive">
-						<p>Wifi</p>
+						<?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
+						<p><?php the_title(); ?></p>
 					</div>
 				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-television.png" class="img-responsive">
-						<p>Televisión</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-cocina.png" class="img-responsive">
-						<p>Cocina Integral</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-mobiliario.png" class="img-responsive">
-						<p>Mobiliario</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-gastos.png" class="img-responsive">
-						<p>Gastos Comunes</p>
-					</div>
-				</a>
-				<div class="clearfix"></div>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-yoga.png" class="img-responsive">
-						<p>Sala de Yoga</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-salajuegos.png" class="img-responsive">
-						<p>Sala de Juegos</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-salaestudios.png" class="img-responsive">
-						<p>Sala de Estudios</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-gimnasio.png" class="img-responsive">
-						<p>Gimnasio</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-terraza.png" class="img-responsive">
-						<p>Terraza</p>
-					</div>
-				</a>
-				<div class="clearfix"></div>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-bbq.png" class="img-responsive">
-						<p>BBQ</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-piscina.png" class="img-responsive">
-						<p>Piscina</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-tech.png" class="img-responsive">
-						<p>Tech Zone</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-app.png" class="img-responsive">
-						<p>App Móvil</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-descuentos.png" class="img-responsive">
-						<p>Descuentos y Convenios</p>
-					</div>
-				</a>
-				<div class="clearfix"></div>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-staff.png" class="img-responsive">
-						<p>Staff 24 Horas</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-seguridad.png" class="img-responsive">
-						<p>Seguridad 24 Horas</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-programacion.png" class="img-responsive">
-						<p>Programación de Actividades</p>
-					</div>
-				</a>
+<?php
+
+					endwhile;
+?>		
+				
 				<div class="clearfix"></div>
 			</div>
 			<h3>Servicios Disponibles</h3>
 			<div id="servicios-ico">
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+<?php
+		$the_query = new WP_Query( array(
+		    'post_type' 		=> 'servicio',
+            'posts_per_page' 	=> -1
+		) );
+		while ( $the_query->have_posts() ) :   
+	  			 $the_query->the_post();
+?>				
+				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="<?php echo get('tooltip'); ?>">
 					<div class="icobox">
-						<img src="assets/img/iconos/ico-lavanderia.png" class="img-responsive">
-						<p>Lavandería</p>
+						<?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
+						<p><?php the_title(); ?></p>
 					</div>
 				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-excursiones.png" class="img-responsive">
-						<p>Excursiones</p>
-					</div>
-				</a>
-				<a href="javascript:void(0)" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
-					<div class="icobox">
-						<img src="assets/img/iconos/ico-estacionamiento.png" class="img-responsive">
-						<p>Estacionamiento</p>
-					</div>
-				</a>
+<?php
+
+					endwhile;
+?>		
 				<div class="clearfix"></div>
 			</div>
 		</div>
@@ -243,18 +117,16 @@
   					
 					<div class="row">
 						<div class="col-sm-8 col-sm-offset-2">
-							<img src="assets/img/hash_livinn_santiago.png" class="img-responsive" id="hashlivinn">
+							<img src="<?php bloginfo('template_url'); ?>/assets/img/hash_livinn_santiago.png" class="img-responsive" id="hashlivinn">
 							<h2>¡Usa el #livinnsantiago y repostearemos tus fotos en nuestra redes sociales!</h2>
 						</div>
 					</div>
-					<a href="page-comunidad.php" class="ease vermas">
+					<a href="<?php bloginfo('url'); ?>/comunidad" class="ease vermas">
 						VER MÁS
 					</a>
   				</div>
   				<div class="col-md-8 comunidadbox">
-					<div data-is data-is-api="assets/instashow2/api/" data-is-source='["@livinnsantiago"]' data-is-post-template='classic' data-is-responsive='[{"minWidth":375,"columns":2,"rows":2,"gutter":"0"},{"minWidth":768,"columns":"3","rows":2,"gutter":"0"}]' data-is-gutter='20' data-is-post-elements='[]' data-is-popup-elements='["user","location","followButton","instagramLink","likesCount","share","text","date"]' data-is-lang='es'></div>
-					
-					
+					<div data-is data-is-api="<?php bloginfo('template_url'); ?>/assets/instashow2/api/" data-is-source='["@livinnsantiago"]' data-is-post-template='classic' data-is-responsive='[{"minWidth":375,"columns":2,"rows":2,"gutter":"0"},{"minWidth":768,"columns":"3","rows":2,"gutter":"0"}]' data-is-gutter='20' data-is-post-elements='[]' data-is-popup-elements='["user","location","followButton","instagramLink","likesCount","share","text","date"]' data-is-lang='es'></div>
   				</div>
   			</div>
   		</div>
@@ -271,57 +143,110 @@
   							<p>Selecciona tu lugar para visitar</p>
   							<div class="form-group">
 	  							<select name="tipolugar" id="tipolugar"  class="form-control">
-		  							<option value="1">Turismo</option>
-		  							<option value="2">Turismo</option>
-		  							<option value="3">Turismo</option>
-		  							<option value="4">Turismo</option>
+									<?php	
+									foreach( get_terms( 'tipo_de_lugar', array('orderby' => 'id', 'order' => 'ASC', 'hide_empty' => false, 'parent' => 0 ) ) as $parent_term ) {
+										//print_r($parent_term);
+									// display top level term name
+									echo '<option value="'.$parent_term->slug.'">'.$parent_term->name . '</option>';
+									
+									
+									}
+									?>
 	  							</select>
 							</div>
   							<div class="form-group visible-xs">
-	  							<select name="lugar" id="lugar"  class="form-control">
-		  							<option value="LUGARES_DE_INTERES_1">Torres del paine</option>
-		  							<option value="LUGARES_DE_INTERES_2">Isla de Pascua</option>
-		  							<option value="LUGARES_DE_INTERES_3">San Pedro de Atacama</option>
-		  							<option value="LUGARES_DE_INTERES_4">Valdivia</option>
-		  							<option value="LUGARES_DE_INTERES_5">Pichilemu</option>
-		  							<option value="LUGARES_DE_INTERES_6">Cordillera</option>
+							<?php	
+								$i = 0;
+							foreach( get_terms( 'tipo_de_lugar', array('orderby' => 'id', 'order' => 'ASC', 'hide_empty' => false, 'parent' => 0 ) ) as $parent_term ) {	
+								$slug = $parent_term->slug;
+								$i++;
+								if($i>1){
+									$clase = 'hide';
+								}
+							?>	  							
+	  							<select name="lugar" id="lugar"  class="form-control lista-<?php echo $slug; ?> <?php echo $clase; ?> lugares">
+		  							
+		  							<option value="">Seleccione</option>
+						<?php
+								$the_query = new WP_Query( array(
+								    'post_type' => 'lugar',
+								    'tax_query' => array(
+								       array (
+								            'taxonomy' 	=> 'tipo_de_lugar',
+								            'field'    	=> 'slug',
+								            'terms' 	=> $slug,
+								        )
+								    ),
+								) );
+								while ( $the_query->have_posts() ) :   
+							  			 $the_query->the_post();
+							  			 global $post;
+							  			 $post_slug=$post->post_name;
+						?>	
+		  							<option value="<?php echo $post_slug; ?>"><?php the_title(); ?></option>
+						<?php
+						
+								endwhile;
+						?>			  		
 	  							</select>
+  						<?php } ?>
 							</div>
-  							<ol id="lugares1" class="hidden-xs">
-	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_1">Torres del paine</a></li>
-	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_2">Isla de Pascua</a></li>
-	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_3">San Pedro de Atacama</a></li>
-	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_4">Valdivia</a></li>
-	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_5">Pichilemu</a></li>
-	  							<li><a href="javascript:void(0);" id="LUGARES_DE_INTERES_6">Cordillera</a></li>
+							<?php	
+								$i = 0;	
+							foreach( get_terms( 'tipo_de_lugar', array('orderby' => 'id', 'order' => 'ASC', 'hide_empty' => false, 'parent' => 0 ) ) as $parent_term ) {	
+								$slug = $parent_term->slug;
+								$i++;
+								if($i>1){
+									$clase = 'hide';
+								}else{
+									$clase = '';
+								}
+							?>
+  							<ol id="lugares1" class="hidden-xs lista-<?php echo $slug; ?> <?php echo $clase; ?> lugares">
+						<?php
+							
+								$the_query = new WP_Query( array(
+								    'post_type' 		=> 'lugar',
+								    'tax_query' => array(
+								       array (
+								            'taxonomy' 	=> 'tipo_de_lugar',
+								            'field'    	=> 'slug',
+								            'terms' 	=> $slug,
+								        )
+								    ),
+								    
+								) );
+								while ( $the_query->have_posts() ) :   
+							  			 $the_query->the_post();
+							  			 global $post;
+							  			 $post_slug=$post->post_name;
+						?>	
+	  							<li><a href="javascript:void(0);" id="<?php echo $post_slug; ?>"><?php the_title(); ?></a></li>
+						<?php
+								endwhile;
+						?>		
   							</ol>
+  						<?php } ?>
   						</div>
   						
   						<div class="col-sm-7 col-sm-offset-1 text-right cienporcien" id="lugarboxinfo">
-	  						<div id="txt-LUGARES_DE_INTERES_1" class="lugarboxinfo hide">
-	  							<h2>Torres del paine</h2>
-	  							<p>El Parque Nacional Torres del Paine está ubicado en la Patagonia de Chile, es conocido por sus altas montañas. Sin embargo, son las 3 torres de granito que dan su nombre al parque. Los glaciares y las praderas albergan una fauna poco común y conforman un paisaje muy hermoso. Sin duda, un lugar imperdible en Chile.</p>
-	  						</div>
-	  						<div id="txt-LUGARES_DE_INTERES_2" class="lugarboxinfo hide">
-	  							<h2>Isla de Pascua</h2>
-	  							<p>Isla de Pascua es una remota isla volcánica en la Polinesia perteneciente a Chile. Su nombre nativo es Rapa Nui. Es famosa por sus sitios arqueológicos, incluidas cerca de 900 estatuas monumentales llamadas "Moáis", creadas por los habitantes entre los siglos XIII y XVI. Los moáis son figuras humanas talladas con cabezas demasiado grandes, a menudo, apoyados sobre enormes pedestales de piedra llamados ahus.</p>
-	  						</div>
-	  						<div id="txt-LUGARES_DE_INTERES_3" class="lugarboxinfo hide">
-	  							<h2>San Pedro de Atacama</h2>
-	  							<p>San Pedro de Atacama es una ciudad ubicada en una alta meseta árida en la Cordillera de los Andes del noreste chileno. Su espectacular paisaje circundante incluye desierto, salares, volcanes, géiseres y aguas termales. El Valle de la Luna en la Reserva Nacional los Flamencos es una depresión similar a la superficie lunar con formaciones rocosas poco comunes, una enorme duna de arena y montañas con manchas de color rosa.</p>
-	  						</div>
-	  						<div id="txt-LUGARES_DE_INTERES_4" class="lugarboxinfo hide">
-	  							<h2>Valdivia</h2>
-	  							<p>Valdivia, también conocida como la capital cervecera de Chile, está ubicada en la Región de los Ríos. Fue una de las primeras ciudades fundadas en Chile. Durante el Chile Colonial, se la consideraba “la llave del mar del sur”, porque era un enclave estratégico para el acceso al Océano Pacífico. Por este motivo se construyó un conjunto de fortificaciones que la protegían de ataques por parte de los enemigos. </p>
-	  						</div>
-	  						<div id="txt-LUGARES_DE_INTERES_5" class="lugarboxinfo hide">
-	  							<h2>Pichilemu</h2>
-	  							<p>La playa de Pichilemu es una zona de práctica de surf, específicamente el sector de Punta de Lobos, donde por sus break points se han desarrollado campeonatos con participación y relevancia internacional que han provocado que Pichilemu sea nombrada la Capital Mundial del Surf.</p>
-	  						</div>
-	  						<div id="txt-LUGARES_DE_INTERES_6" class="lugarboxinfo hide">
-	  							<h2>Cordillera</h2>
-	  							<p>El esquí en Chile es un deporte relativamente popular en las zonas central, sur y austral de los Andes chilenos, aptos para la práctica de este deporte. A lo largo de la cordillera, entre las regiones de Valparaíso y Magallanes y Antártica Chilena, Chile cuenta con dieciocho estaciones de esquí de calidad internacional, donde, de junio a septiembre, es posible practicar deportes de invierno, principalmente esquí y snowboarding.</p>
-	  						</div>
+						<?php
+								$the_query = new WP_Query( array(
+								    'post_type' 		=> 'lugar',
+									'posts_per_page' 	=> -1
+								) );
+								while ( $the_query->have_posts() ) :   
+									$the_query->the_post();
+									global $post;
+									$post_slug=$post->post_name;
+						?>		  						
+							<div id="txt-<?php echo $post_slug; ?>" class="lugarboxinfo hide" data-bg="<?php echo the_post_thumbnail_url(); ?>">
+								<h2><?php the_title(); ?></h2>
+								<?php the_content(); ?>
+							</div>
+						<?php
+								endwhile;
+						?>		
   						</div>
   					</div>
   				</div>

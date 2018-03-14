@@ -9,7 +9,7 @@
 					</a>
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1">
-							<img src="assets/img/BLOG.jpg" class="img-responsive">
+							<img src="<?php bloginfo('template_url'); ?>/assets/img/BLOG.jpg" class="img-responsive">
 							<h2>10 eventos en Santiago imperdibles este verano</h2>
 						</div>
 					</div>
@@ -21,7 +21,7 @@
 					</a>
 					<div class="row">
 						<div class="col-sm-10 col-sm-offset-1">
-							<img src="assets/img/Eventos.jpg" class="img-responsive">
+							<img src="<?php bloginfo('template_url'); ?>/assets/img/Eventos.jpg" class="img-responsive">
 							<h2>Bienvenida 2018: Nuevos Residentes!!</h2>
 						</div>
 					</div>
